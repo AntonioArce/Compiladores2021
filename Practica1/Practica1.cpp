@@ -1,27 +1,32 @@
 #include <iostream>
+#include <vector>
+
+using namespace std;
 
 class automata
 {
     public:
-    int estados[];
-    string alfabeto[];
-}
+    vector<int> estados;
+    vector<string> alfabeto;
+};
 
 class AFD : public automata
 {
     private:
     int aceptado;
-    string transicion[];
-}
+    vector<string> transicion;
+};
 
 class AFN : public automata
 {
     private:
-    int aceptado[];
-    string transicion[];
-}
+    int aceptado;
+    vector<string> transicion;
+};
 
-void main()
+int main()
 {
-    cout<<"Automatas"<<endl;
+    vector<string> transicion;
+    std::cout<<"Automatas";
+	return 0;
 }
