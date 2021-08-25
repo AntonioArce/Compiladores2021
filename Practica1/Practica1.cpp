@@ -3,30 +3,29 @@
 
 using namespace std;
 
-class automata
+class Automata
 {
-    public:
-    vector<int> estados;
-    vector<string> alfabeto;
+	public:
+		vector <char> alfabeto;
+		vector <int> Qestados;
+		int q0;
+		vector <int> EstadosF;
 };
 
-class AFD : public automata
-{
-    private:
-    int aceptado;
-    vector<string> transicion;
+class Determinista: Automata 
+{ 
+	public:
+		vector <string> transiciones;
 };
 
-class AFN : public automata
-{
-    private:
-    int aceptado;
-    vector<string> transicion;
+class NoDeterminista: Automata 
+{ 
+	public:
+		vector <string> transiciones;
 };
 
 int main()
 {
-    vector<string> transicion;
-    std::cout<<"Automatas";
+    
 	return 0;
 }
