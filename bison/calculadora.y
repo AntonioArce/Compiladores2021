@@ -28,6 +28,10 @@ expresion: expresion expresion '+'  { $$ = $1 + $2; }
 ;
 expresion: expresion expresion '*'  { $$ = $1 * $2; }
 ;
+expresion: expresion expresion '-'  { $$ = $1 - $2; }
+;
+expresion: expresion expresion '/'  { $$ = $1 / $2; }
+;
 
 %%
 
