@@ -1,0 +1,8 @@
+%token CONSTANTE
+%token INT
+
+%%
+
+
+
+%%
