@@ -11,6 +11,9 @@ D			[0-9]
 %%
 
 "int"       {return(INT);}
+"double"		{return(DOUBLE);}
+"char"      {return(CHAR);}
+"float"     {return(FLOAT);}
 "="         {return('=');}
 D+          {return(CONSTANTE);}
 
