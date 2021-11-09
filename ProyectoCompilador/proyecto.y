@@ -1,5 +1,5 @@
 %token CONSTANTE
-%token INT
+%token INT CHAR FLOAT DOUBLE
 
 %%
 
