@@ -23,6 +23,12 @@ PUNTO \.
 "/"			    {return('/');}
 "%"			    {return('%');}
 "="         {return('=');}
+"&&"			  {return(OP_AND);}
+"||"			  {return(OP_OR);}
+"<="			  {return(OP_MEN_O_IG);}
+">="			  {return(OP_MAY_O_IG);}
+"=="			  {return(OP_IGIG);}
+"!="			  {return(OP_NEG);}
 
 
 {L}({L}|{D})*		{return(IDENTIFICADOR);}
