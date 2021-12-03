@@ -29,6 +29,7 @@ PUNTO \.
 ">="			  {return(OP_MAY_O_IG);}
 "=="			  {return(OP_IGIG);}
 "!="			  {return(OP_NEG);}
+";"			    {return(';');}
 
 
 {L}({L}|{D})*		{return(IDENTIFICADOR);}
