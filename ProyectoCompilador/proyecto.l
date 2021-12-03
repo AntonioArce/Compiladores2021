@@ -15,6 +15,8 @@ PUNTO \.
 "double"		{return(DOUBLE);}
 "char"      {return(CHAR);}
 "float"     {return(FLOAT);}
+"if"			  {return(IF);}
+"else"      {return(ELSE);}
 "-"			    {return('-');}
 "+"			    {return('+');}
 "*"			    {return('*');}
